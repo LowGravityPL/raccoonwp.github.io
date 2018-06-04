@@ -1,0 +1,15 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+#raccoon_logo {
+	position: relative;
+	left: 40%;
+	width: 142px;
+	height: 100px;
+	background: url(../images/raccoon-head-scaled.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-bottom: 20px;
+}
