@@ -48,17 +48,29 @@
       </div><!-- end banner -->
 
     <div class="wrapper">
-      <nav>
+      <nav style="position:absolute; top:30px;">
         <a href="https://raccoonwp.lowgravity.pl">
           <div id="raccoon_logo"></div>
         </a>
         <ul></ul>
       </nav>
       <section>
+          <div class="box" style="border-bottom: 1px solid #ccc; margin-bottom: 30px">
+          <ul>
+
+              {% for p in site.pages %}
+              {% if p.title != nil %}
+              <li>
+                  <a href="{{ p.url }}">{{ p.title }}</a>
+              </li>
+              {%endif%}
+              {% endfor %}
+          </ul>
+          </div>
         {{ content }}
 
       </section>
-      <footer>
+      <footer style="text-align: center; margin: 20px auto; position: relative; width: 100%; left:auto; bottom: auto;">
         {% if site.github.is_project_page %}
           <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
