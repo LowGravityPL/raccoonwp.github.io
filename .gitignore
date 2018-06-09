@@ -5,6 +5,8 @@
 /.idea
 
 
-#other
+#local build
 Gemfile.lock
 _site
+.bundle/
+vendor/
