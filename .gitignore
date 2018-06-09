@@ -3,3 +3,8 @@
 
 #IDE
 /.idea
+
+
+#other
+Gemfile.lock
+_site
