@@ -56,15 +56,15 @@
       </nav>
       <section>
           <div class="box" style="border-bottom: 1px solid #ccc; margin-bottom: 30px">
-          <ul>
-
-              {% for p in site.pages %}
+          <h3>Documentation index</h3>
+          <ul style="padding-left:20px;">
+            {% for p in site.pages %}
               {% if p.title != nil %}
-              <li>
+                <li>
                   <a href="{{ p.url }}">{{ p.title }}</a>
-              </li>
+                </li>
               {%endif%}
-              {% endfor %}
+            {% endfor %}
           </ul>
           </div>
         {{ content }}
