@@ -26,7 +26,7 @@ It is best suited for fresh projects though there is no problem to implement it 
     - Better data management by storing CPT configuration outside theme (when needed) 
     - Multisite not tested yet! Though it should work without issues.
 - Theme:
-    - Customizable theme build process based on newest [Webpack 4.9](https://webpack.js.org/) with dead code elimination and tree-shaking
+    - Customizable theme build process based on newest [Webpack 4.12](https://webpack.js.org/) with dead code elimination and tree-shaking
     - CSS: Plain SCSS / Bootstrap 4 / Foundation 5 / Bourbon/Neat or anything else
     - JS: all newest features like ES6, modules, spreads, destructuring objects and arrays etc.
     - NPM: package manager allowing to import various 3rd party libraries into the project
