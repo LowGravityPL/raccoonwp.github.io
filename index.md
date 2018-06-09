@@ -4,17 +4,18 @@ layout: default
 ---
 
 # RaccoonWP
-Raccoon is a modern WordPress Architecture Stack and Starter Theme based on PHP/Composer which uses modern technologies NodeJs/Webpack to build theme assets. 
+Raccoon is a modern WordPress architecture stack which comes with a Starter Theme. The stack is based on Composer on the backend 
+and NodeJs and Webpack on the frontend. This composition allows for quick, stable and development using the tools which are state of the art in 2018.  
 
-Use it as your boilerplate to obtain optimal, stable architecture with performance and security in mind.
+You should use our project as your boilerplate to obtain optimal, stable architecture with performance and security in mind.
 
-It is best suited for fresh projects though there is no problem to implement it into existing project.
+It is best suited for fresh projects though there is no problem in implementing it into existing ones.
 
 ### Technical Requirements
 - [WordPress](https://wordpress.org/) 4.0+ (or 4.8 if You use extended CPTs) 
 - [PHP](https://secure.php.net/) 7.0 or newer
 - [PHP Composer](https://getcomposer.org/)
-- [Node and NPM](https://nodejs.org/) (optional if you do not want develop theme)
+- [Node and NPM](https://nodejs.org/) (required only if you want to use our theme as well)
 
 ### Features
 - Architecture:
@@ -31,6 +32,8 @@ It is best suited for fresh projects though there is no problem to implement it 
     - JS: all newest features like ES6, modules, spreads, destructuring objects and arrays etc.
     - NPM: package manager allowing to import various 3rd party libraries into the project
     - Twig (default) or Blade templating
+    
+    See our [recipes section](/recipes) to see how to tweak the project to your needs.
 
 ### Current version
 1.0.0-alpha
@@ -41,10 +44,10 @@ It is best suited for fresh projects though there is no problem to implement it 
 
 ----
 ### Brought to you by [LowGravity.pl](https://lowgravity.pl)
+We are the team of experienced developers and designers working with various clients around the globe. We have worked
+on small personal websites as well as large scale enterprise ones. 
 
-We are the team of experienced designers and developers working with various clients around the globe.
-
-Our main focus is code quality and performance, we help big and small teams in making their workflow, projects and
+Our main focus is code quality and performance, We help small and big teams making their workflow, projects and
 infrastructure to be more robust, performant and secure. 
 
-Our area of expertise focuses mostly on WEB technologies and services but we are not afraid of other challenges.
+Our area of expertise focuses mostly on WEB technologies but we are not afraid of other challenges.
