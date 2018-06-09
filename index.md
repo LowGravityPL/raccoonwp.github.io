@@ -1,5 +1,5 @@
 ---
-title: Getting started
+title: 01. Getting started
 layout: default
 ---
 

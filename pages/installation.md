@@ -1,5 +1,5 @@
 ---
-title: Installation
+title: 02. Installation
 permalink: installation.html
 ---
 

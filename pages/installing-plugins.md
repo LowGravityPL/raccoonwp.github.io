@@ -1,5 +1,5 @@
 ---
-title: Installing plugins
+title: 03. Installing plugins
 permalink: installing-plugins.html
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Theme development
+title: 04. Theme development
 permalink: theme-development.html
 ---
 

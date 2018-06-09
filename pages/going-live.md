@@ -1,5 +1,5 @@
 ---
-title: Going live?
+title: 06. Going live?
 permalink: going-live.html
 ---
 
