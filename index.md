@@ -2,28 +2,48 @@
 layout: default
 ---
 
-# We're here to improve your WP experience!
+# RaccoonWP
+Raccoon is a modern WordPress Architecture Stack and Starter Theme based on PHP/Composer which uses modern technologies NodeJs/Webpack to build theme assets. 
 
-This is just the beginning of our journey. :)
+Use it as your boilerplate to obtain optimal, stable architecture with performance and security in mind.
 
-# Different recipes
+It is best suited for fresh projects though there is no problem to implement it into existing project.
 
-## Bootstrap
+### Technical Requirements
+- [WordPress](https://wordpress.org/) 4.0+ (or 4.8 if You use extended CPTs) 
+- [PHP](https://secure.php.net/) 7.0 or newer
+- [PHP Composer](https://getcomposer.org/)
+- [Node and NPM](https://nodejs.org/) (optional if you do not want develop theme)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+### Features
+- Architecture:
+    - Composer support
+    - WordPress Core as a dependency
+    - Better directory structure and more secure than default WordPress install
+    - Environment-based configuration
+    - Support for [Wp-Cli](https://wp-cli.org/)
+    - Better data management by storing CPT configuration outside theme (when needed) 
+    - Multisite not tested yet! Though it should work without issues.
+- Theme:
+    - Customizable theme build process based on newest [Webpack 4.9](https://webpack.js.org/) with dead code elimination and tree-shaking
+    - CSS: Plain SCSS / Bootstrap 4 / Foundation 5 / Bourbon/Neat or anything else
+    - JS: all newest features like ES6, modules, spreads, destructuring objects and arrays etc.
+    - NPM: package manager allowing to import various 3rd party libraries into the project
+    - Twig (default) or Blade templating
 
-## Bourbon/neat
+### Current version
+1.0.0-alpha
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+### License
 
-## React/Preact/Vue
+[MIT](LICENSE.md) © [LowGravity.pl](https://lowgravity.pl)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+----
+### Brought to you by [LowGravity.pl](https://lowgravity.pl)
 
-## Disabling Twig
+We are the team of experienced designers and developers working with various clients around the globe.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Our main focus is code quality and performance, we help big and small teams in making their workflow, projects and
+infrastructure to be more robust, performant and secure. 
 
-## Installing ACF Pro from composer
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Our area of expertise focuses mostly on WEB technologies and services but we are not afraid of other challenges.
