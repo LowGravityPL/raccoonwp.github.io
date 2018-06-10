@@ -18,19 +18,27 @@ In order to develop theme you need to have [Node and NPM](https://nodejs.org/) i
 
 ### Configuration 
 More information coming soon.
-- webpack config
-- eslint config
+#### Webpack config
+#### Eslint config
+By default we use very soft linting rules as those should be defined by you and your team. 
+You can configure the way your script files are getting linted. 
+
+In order to do that edit the `public/core/themes/raccoon-theme/.eslintrc.js` file. 
+Please follow [the official eslint documentation](https://eslint.org/docs/user-guide/configuring) for all available options.
 
 ### Available terminal commands
 - `npm run watch`  
 Runs watch process which builds assets on the fly using browsersync for reloading changes. 
 It does Hot Module Replacement too if your code supports that.
+
 - `npm build`  
 Builds development version of the assets
+  
 - `npm run build:prod`  
-Run production build
+Runs production build
+
 - `npm run lint`  
-Run eslint javascript linting process
+Runs eslint javascript linting process
 
 ### Child theme
 At the moment theme does not have official child theme support. 
