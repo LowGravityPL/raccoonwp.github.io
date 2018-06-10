@@ -5,13 +5,13 @@ permalink: going-live.html
 
 # Going live ideas?
 1. Consider adding `"optimize-autoloader": true` to your composer.json config.
-1. Do not deploy/upload following files:
+1. Do NOT deploy/upload following files/directories:
     - Composer configuration - `composer.json`, `composer.lock`,
-    - package.json
-    - node_modules
-    - non-compiled assets (use dist/ on production)
-    - webpack configuration
-    - and other
+    - theme `package.json`
+    - theme `node_modules`
+    - non-compiled theme assets (use `dist/` on production)
+    - theme webpack configuration (`build-util` directory)
+    - and other files like `.eslintrc.js`, `README>md` and many more.
      
 1.  Consider adding "production" plugins like:
     - Minification plugin (i.e. [autoptimize](https://wordpress.org/plugins/autoptimize/)).
