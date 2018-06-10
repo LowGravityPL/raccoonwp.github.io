@@ -13,7 +13,7 @@ See our [recipes section](/recipes) to see how to tweak the project to your need
 ### Initial set up
 In order to develop theme you need to have [Node and NPM](https://nodejs.org/) installed in the system.
 
-1. Navigate to theme directory by tpying `cd public/core/themes/raccoon-theme` in your terminal
+1. Navigate to theme directory by typing `cd public/core/themes/raccoon-theme` in your terminal
 1. Run `npm install` command.
 
 ### Configuration 
