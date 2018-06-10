@@ -4,7 +4,6 @@ permalink: theme-development.html
 ---
 
 # How to build a theme?
-
 RaccoonWP comes with a starter theme. By default it comes with Twig templating engine support.
 If you are not a fan of Twig you can replace it with Blade or use plain old WordPress templating.
 
@@ -19,6 +18,18 @@ In order to develop theme you need to have [Node and NPM](https://nodejs.org/) i
 ### Configuration 
 More information coming soon.
 #### Webpack config
+We have tried to make webpack configuration clean and readable. 
+Webpack itself came a long way since 1.x version and it gets better in its documentation and configuration.
+
+Unfortunately there is still a certain learning curve to grasp how its really working.
+
+Having that in mind we have created `user.config.js` file which exposes most important configuartion aspects.
+
+How to use it?
+1. Please copy `public/core/themes/raccoon-theme/build-util/user.config.example.js` and name the new file `user.config.js`.
+1. Adjust the configuration to fit your project / environment. The most important setting may be `devUrl` which
+is nothing else than local URL of the website on your local environment.
+
 #### Eslint config
 By default we use very soft linting rules as those should be defined by you and your team. 
 You can configure the way your script files are getting linted. 
