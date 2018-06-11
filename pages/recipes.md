@@ -19,10 +19,6 @@ Usually it is...[more info needed]
 The directory your theme files reside in.
 By default it is `/public/core/themes/raccoon-theme`
 
-## Feature missing?
-### How to customize theme build process?
-We use webpack for managing...
-Edit... [more info needed]
 ### How to add Custom Post Type or Taxonomy?
 Nobody wants to repeat his code. 
 That is why we rely on great [Extended CPTs library by John Blackbourn](https://github.com/johnbillion/extended-cpts)
@@ -39,6 +35,19 @@ How to remove built-in jQuery 1.x and serve 3.x without breaking the plugins
 [more info needed]
 ### How to add React or Vue?
 [more info needed]
+### How to disable plugin on certain environment
+If you need to disable particular plugin on given environment (for example cache plugin when developing locally)
+then all you need to do is:
+1. Locate the environment config you want to adjust in the `/RaccoonWP/configuration/` directory.
+1. Add following snippet to the file:
+    ``` 
+    define('ENV_DISABLED_PLUGINS', [
+        'gutenberg/gutenberg.php',
+    ]);
+    ```
+
+If you would like to learn more about the idea and how it works in the background please read
+[this article](https://kamilgrzegorczyk.com/2018/05/02/how-to-disable-plugins-on-certain-environment/).
 
 ## Feature removal
 You don't like particular RaccoonWP feature? 

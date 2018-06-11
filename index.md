@@ -26,7 +26,8 @@ It is best suited for fresh projects though there is no problem in implementing 
     - Better directory structure and more secure than default WordPress install.
     - Environment-based configuration.
     - Support for [Wp-Cli](https://wp-cli.org/).
-    - Proper project data management - for example by storing CPT configuration outside theme (when needed). 
+    - Proper project data management - for example by storing CPT configuration outside theme (when needed).
+    - Ability to disable plugins per environment. 
     - [Coming soon] Multisite not tested yet! Though it should work without issues..
 - Theme:
     - Customizable theme build process based on newest [Webpack 4.12](https://webpack.js.org/) with all its features
