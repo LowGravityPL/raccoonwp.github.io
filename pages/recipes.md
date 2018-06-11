@@ -48,10 +48,12 @@ How to remove built-in jQuery 1.x and serve 3.x without breaking the plugins
 If you need to disable particular plugin on given environment (for example cache plugin when developing locally)
 then all you need to do is:
 1. Locate the environment config you want to adjust in the `/RaccoonWP/configuration/` directory.
-1. Add following snippet to the file and replace example Gutenberg plugin with your use case:
+1. Edit and add following snippet to the file:
     ``` 
+    //replace the plugins with the ones which fit your use case
     define('ENV_DISABLED_PLUGINS', [
         'gutenberg/gutenberg.php',
+        'autoptimize/autoptimize.php',
     ]);
     ```
 
