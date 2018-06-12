@@ -16,10 +16,12 @@ To start using RaccoonWP please follow the steps below:
       [todo: create a package on packagist]
   1. Set up your environment config file:
       1. Copy `.env.sample` file and name it `.env`
-      1. put salts in [create salts url]
+      1. Navigate to [https://lowgravity.pl/salts.php](https://lowgravity.pl/salts.php) to generate salts 
+      and paste them into your `.env` file.
       1. Add all environment configuration details like DB connection details or environment type.
       1. Set proper site and home URLs.
-  1. Adjust your web server's (usually Apache or nginx) configuration and point your web root to the `public/` directory. 
+  1. Adjust your web server's (usually Apache or nginx) configuration 
+  and point your web root to the `public/` directory. 
   1. Visit the url in the browser.
   
   If you want to use our starter themes please follow the steps mentioned in [theme development documentation](/theme-development).
