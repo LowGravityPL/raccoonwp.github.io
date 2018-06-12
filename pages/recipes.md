@@ -1,5 +1,5 @@
 ---
-title: 05. Recipes
+title: 06. Recipes
 permalink: recipes.html
 ---
 
