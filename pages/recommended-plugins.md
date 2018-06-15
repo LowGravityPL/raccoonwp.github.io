@@ -1,5 +1,5 @@
 ---
-title: 03a. Recommended plugins
+title: 09. Recommended plugins
 permalink: recommended-plugins.html
 ---
 
