@@ -15,6 +15,7 @@ In order to develop theme you need to have [Node and NPM](https://nodejs.org/) i
 1. Navigate to theme directory by typing `cd public/core/themes/raccoon-theme` in your terminal
 1. Run `npm install` command.
 
+
 ### Theme structure (rough overview, some files and dirs were omitted for readability)
 ```
 ├── app                            # main theme directory
@@ -52,12 +53,12 @@ Webpack itself came a long way since 1.x version and it gets better in its docum
 
 Unfortunately there is still a certain learning curve to grasp how its really working.
 
-Having that in mind we have created `user.config.js` file which exposes most important configuartion aspects.
+Having that in mind we have created `user.config.js` file which exposes most important configuration aspects.
 
 How to use it?
 1. Please copy `public/core/themes/raccoon-theme/build-util/user.config.example.js` and name the new file `user.config.js`.
 1. Adjust the configuration to fit your project / environment. The most important setting may be `devUrl` which
-is nothing else than local URL of the website on your local environment.
+is nothing else than URL of the website on your local environment.
 
 #### Eslint config
 By default we use very soft linting rules as those should be defined by you and your team. 
