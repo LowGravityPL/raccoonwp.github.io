@@ -13,7 +13,6 @@ To start using RaccoonWP please follow the steps below:
       ```
       composer create-project -s dev  lowgravitypl/raccoonwp
       ```
-      [todo: create a package on packagist]
   1. Set up your environment config file:
       1. Copy `.env.sample` file and name it `.env`
       1. Navigate to [https://lowgravity.pl/salts.php](https://lowgravity.pl/salts.php) to generate salts 

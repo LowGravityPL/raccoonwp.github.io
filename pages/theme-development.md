@@ -15,6 +15,35 @@ In order to develop theme you need to have [Node and NPM](https://nodejs.org/) i
 1. Navigate to theme directory by typing `cd public/core/themes/raccoon-theme` in your terminal
 1. Run `npm install` command.
 
+### Theme structure (rough overview, some files and dirs were omitted for readability)
+```
+├── app                            # main theme directory
+│   ├── base                       # basic/core functionalities
+│   │   ├── lib                    # a place for classes/helpers
+│   │   ├── setup                  # files containing theme setup functions like assets enqueue, sidebars, menus
+│   ├── data-helpers               # a place where you should put your data fetching functions (only theme related ones!)
+│├── templates                     # directory for page/component templates
+│└── translations                  # this is where you should put your translation files
+├── assets                         # raw assets directory
+│   ├── fonts
+│   ├── images
+│   ├── other
+│   ├── scripts
+│   │   └── app.js                 # main javascript file (webpack entry point)
+│   └── styles
+│       └── app.scss               # main sass file
+├── build-util                     # all your webpack configuration
+│   ├── common                     # common webpack configuration (shared between modes)
+│   ├── helpers                    # webpack config helpers
+│   ├── modes                      # webpack mode configs (prod, dev etc.)
+│   ├── user.config.example.js     # example file for user configuration
+│   ├── watch.js                   # watch mode script
+│   └── webpack.config.js          # main weboack config file
+├── dist                           # contains all processed, production-ready assets.
+├── page-templates                 # this is where you should put your page tempaltes
+└── package.json                   # contains your npm dependencies and runs webpack scripts
+```
+
 ### Configuration 
 More information coming soon.
 #### Webpack config
