@@ -11,7 +11,7 @@ To start using RaccoonWP please follow the steps below:
       - [Node and NPM](https://nodejs.org/) (optional if you do not want develop theme)
   1. Use composer to create a project by running following command:
       ```
-      composer create-project lowgravitypl/raccoonwp
+      composer create-project -s dev  lowgravitypl/raccoonwp
       ```
       [todo: create a package on packagist]
   1. Set up your environment config file:
