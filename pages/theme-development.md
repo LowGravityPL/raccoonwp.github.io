@@ -16,15 +16,17 @@ In order to develop theme you need to have [Node and NPM](https://nodejs.org/) i
 1. Run `npm install` command.
 
 
-### Theme structure (rough overview, some files and dirs were omitted for readability)
+### Theme structure 
+This is a rough overview, various files and directories were omitted for readability.
+
 ```
 ├── app                            # main theme directory
 │   ├── base                       # basic/core functionalities
 │   │   ├── lib                    # a place for classes/helpers
 │   │   ├── setup                  # files containing theme setup functions like assets enqueue, sidebars, menus
 │   ├── data-helpers               # a place where you should put your data fetching functions (only theme related ones!)
-│├── templates                     # directory for page/component templates
-│└── translations                  # this is where you should put your translation files
+│   ├── templates                  # directory for page/component templates 
+│   └── translations               # this is where you should put your translation files
 ├── assets                         # raw assets directory
 │   ├── fonts
 │   ├── images
@@ -47,6 +49,10 @@ In order to develop theme you need to have [Node and NPM](https://nodejs.org/) i
 
 ### Configuration 
 More information coming soon.
+
+### Helper methods
+More information coming soon.
+
 #### Webpack config
 We have tried to make webpack configuration clean and readable. 
 Webpack itself came a long way since 1.x version and it gets better in its documentation and configuration.
@@ -67,7 +73,7 @@ You can configure the way your script files are getting linted.
 In order to do that edit the `public/core/themes/raccoon-theme/.eslintrc.js` file. 
 Please follow [the official eslint documentation](https://eslint.org/docs/user-guide/configuring) for all available options.
 
-### Available terminal commands
+#### Available terminal commands
 - `npm run watch`  
 Runs watch process which builds assets on the fly using browsersync for reloading changes. 
 It does Hot Module Replacement too if your code supports that.
