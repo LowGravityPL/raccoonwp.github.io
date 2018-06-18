@@ -21,6 +21,8 @@ To start using RaccoonWP please follow the steps below:
       1. Set proper site and home URLs.
   1. Adjust your web server's (usually Apache or nginx) configuration 
   and point your web root to the `public/` directory. 
+  1. (optionally) Go to `/RaccoonWP/configuration` directory and adjust your custom environment configuration there.
   1. Visit the url in the browser.
   
+  ### Theme development
   If you want to use our starter themes please follow the steps mentioned in [theme development documentation](/theme-development).

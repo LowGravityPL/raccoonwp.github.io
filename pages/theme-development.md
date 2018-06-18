@@ -4,7 +4,9 @@ permalink: theme-development.html
 ---
 
 # How to build a theme?
-RaccoonWP comes with a starter theme. By default it comes with Twig templating engine support.
+RaccoonWP comes with a starter theme. 
+By default it is built with Twig templating engine.
+
 If you are not a fan of Twig you can replace it with Blade or use plain old WordPress templating.
 
 See our [recipes section](/recipes) to see how to tweak the project to your needs.
@@ -66,26 +68,33 @@ How to use it?
 1. Adjust the configuration to fit your project / environment. The most important setting may be `devUrl` which
 is nothing else than URL of the website on your local environment.
 
-#### Eslint config
+#### ESLint config
 By default we use very soft linting rules as those should be defined by you and your team. 
 You can configure the way your script files are getting linted. 
 
 In order to do that edit the `public/core/themes/raccoon-theme/.eslintrc.js` file. 
-Please follow [the official eslint documentation](https://eslint.org/docs/user-guide/configuring) for all available options.
+Please follow [the official ESLint documentation](https://eslint.org/docs/user-guide/configuring) for all available options.
 
 #### Available terminal commands
 - `npm run watch`  
-Runs watch process which builds assets on the fly using browsersync for reloading changes. 
+Runs watch process which builds assets on the fly using BrowserSync for reloading changes. 
 It does Hot Module Replacement too if your code supports that.
 
-- `npm build`  
-Builds development version of the assets
+- `npm run build`  
+Runs Webpack process in development mode
+
+- `npm run build:dev:analyze`
+Runs development build with bundle analysis (you should use prod:analyze mode in 99% of cases)
   
 - `npm run build:prod`  
-Runs production build
+Runs the bundler (webpack) in production mode
+
+- `npm run build:prod:analyze`
+Runs the production build process with bundle analyzer. You can inspect what comes into your bundle 
+and what is going to be shipped to production. 
 
 - `npm run lint`  
-Runs eslint javascript linting process
+Runs ESLint javascript linting process
 
 ### Child theme
 At the moment theme does not have official child theme support. 

@@ -4,7 +4,7 @@ layout: default
 ---
 
 # RaccoonWP
-**This is 1.0.0-alpha release, RC coming soon. If you find any issues let us know**
+**This is 1.0.0-beta release, RC coming soon. If you find any issues let us know**
 
 Raccoon is a modern architecture stack and a starter theme for [WordPress](https://wordpress.org/). 
 
@@ -31,7 +31,10 @@ Raccoon is best suited for fresh projects (but there is no problem in implementi
     - Proper project data management - for example by storing CPT configuration outside theme (when needed).
     - Ability to disable plugins per environment. 
     - Internationalization built in from the beginning.
-    - [Coming soon] Multisite not tested yet! Though it should work without issues..
+    - [Coming soon] Multisite not tested yet! Though it should work without issues.
+    - [On the roadmap] Unit tests
+    - [On the roadmap] E2E tests
+    - [On the roadmap] Docker support
 - Theme:
     - Customizable theme build process based on newest [Webpack 4.12](https://webpack.js.org/) with all its features
     like dead code elimination, bundle analysis, watch process and more.
@@ -41,7 +44,7 @@ Raccoon is best suited for fresh projects (but there is no problem in implementi
     - uses Twig (default) or Blade templating (or you can go old plain WordPress way).
     - Vue? React? We got you covered, check [recipes section](/recipes).
     - [Gutenberg](https://wordpress.org/gutenberg/) support. 
-    - [Under consideration] Child theme support.
+    - [On the roadmap] Child theme support.
     
     See our [recipes section](/recipes) to see how to tweak the project to your needs.
 
