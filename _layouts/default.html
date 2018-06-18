@@ -60,7 +60,7 @@
           <div class="box" style="border-bottom: 1px solid #ccc; margin-bottom: 30px">
           <h2>Documentation index</h2>
           <ul style="padding-left:20px;">
-            {% assign sorted_pages = (site.pages | sort: 'title') %}
+            {% assign sorted_pages = site.pages | sort: 'title' %}
             {% for p in sorted_pages %}
               {% if p.title != nil %}
                 <li>
