@@ -12,9 +12,9 @@ If you are not a fan of Twig you can replace it with Blade or use plain old Word
 See our [recipes section](/recipes) to see how to tweak the project to your needs.
 
 ### Initial set up
-In order to develop theme you need to have [Node and NPM](https://nodejs.org/) installed in the system.
+In order to develop theme you need to have [Node.js and NPM](https://nodejs.org/) installed in the system.
 
-1. Navigate to theme directory by typing `cd public/core/themes/raccoon-theme` in your terminal
+1. Navigate to theme directory by executing `cd public/core/themes/raccoon-theme` in your terminal.
 1. Run `npm install` command.
 
 
@@ -59,7 +59,7 @@ More information coming soon.
 We have tried to make webpack configuration clean and readable. 
 Webpack itself came a long way since 1.x version and it gets better in its documentation and configuration.
 
-Unfortunately there is still a certain learning curve to grasp how its really working.
+Unfortunately there is still a certain learning curve to grasp how it's really working.
 
 Having that in mind we have created `user.config.js` file which exposes most important configuration aspects.
 

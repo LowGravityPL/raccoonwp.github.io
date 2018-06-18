@@ -11,7 +11,7 @@ permalink: going-live.html
     - theme `node_modules`
     - non-compiled theme assets (use `dist/` on production)
     - theme webpack configuration (`build-util` directory)
-    - and other files like `.eslintrc.js`, `README>md` and many more.
+    - and other files like `.eslintrc.js`, `README.md` and many more.
      
 1.  Consider adding "production" plugins like:
     - Minification plugin (i.e. [autoptimize](https://wordpress.org/plugins/autoptimize/)).
@@ -21,4 +21,4 @@ permalink: going-live.html
     Before adding ANY performance related plugins measure your performance first! 
 1. Focus on your web server configuration. Make sure you use reliable and performant service. 
 Use performance and availability monitoring. 
-1. Do not forget about backup policy. Better to be safe than sorry  
+1. Do not forget about backup policy. Better to be safe than sorry.
