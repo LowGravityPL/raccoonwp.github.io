@@ -13,7 +13,7 @@ There are two main ways to add new WordPress plugins to our architecture.
     
     1. Navigate to the [Wpackagist](https://wpackagist.org/) website.
     1. Use the searchbox to find the plugin you want to install. Wpackagist does a great job in having most of WordPress ecosystem there.
-    1. Run the following composer command in the root of the project to add the plugin to your dependencies and install it:  
+    1. Run the following composer command in the root of the project to add the plugin to your dependencies and install it, for example:  
     ```
     composer install "wpackagist-plugin/query-monitor":"3.0.1"
     ```

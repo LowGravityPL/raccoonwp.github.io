@@ -4,12 +4,12 @@ layout: default
 ---
 
 # RaccoonWP
-**This is 1.0.0-beta release, RC coming soon. If you find any issues let us know**
+**This is 1.0.0-alpha release, RC coming soon. If you find any issues let us know**
 
 Raccoon is a modern architecture stack and a starter theme for [WordPress](https://wordpress.org/). 
 
-The stack is based on Composer on the backend. NodeJs with Webpack are used on the frontend. 
-This composition allows for quick and efficient development using the tools which are **state of the art in 2018.**  
+The stack is based on the Composer on the backend. Node.js with Webpack are used on the frontend. 
+This composition allows for a quick and efficient development using the tools which are **state of the art in 2018.**  
 
 You should use it as your boilerplate/starter kit to obtain **optimal architecture with performance, extensibility and security** in mind.
 
@@ -25,10 +25,10 @@ Raccoon is best suited for fresh projects (but there is no problem in implementi
 - Architecture:
     - [PHP Composer](https://getcomposer.org/) support.
     - [WordPress](https://wordpress.org/) Core as a dependency.
-    - Better directory structure and more secure than default WordPress install.
+    - Better directory structure and more secure than the default WordPress install.
     - Environment-based configuration.
     - Support for [Wp-Cli](https://wp-cli.org/).
-    - Proper project data management - for example by storing CPT configuration outside theme (when needed).
+    - Proper project data management - for example by storing CPT configuration outside of the theme (when needed).
     - Ability to disable plugins per environment. 
     - Internationalization built in from the beginning.
     - [Coming soon] Multisite not tested yet! Though it should work without issues.
@@ -39,9 +39,9 @@ Raccoon is best suited for fresh projects (but there is no problem in implementi
     - Customizable theme build process based on newest [Webpack 4.12](https://webpack.js.org/) with all its features
     like dead code elimination, bundle analysis, watch process and more.
     - Flexible CSS: Plain SASS by default / Bootstrap 4 / Foundation 5 / Bourbon/Neat or anything else (check [recipes section](/recipes)).
-    - Modern JS: all newest features like ES6, modules, spreads, destructuring objects and arrays etc.
-    - NPM: node package manager allowing to import various 3rd party libraries into the project.
-    - uses Twig (default) or Blade templating (or you can go old plain WordPress way).
+    - Modern JS: all the newest features like ES6, modules, spreads, destructuring objects and arrays etc.
+    - NPM: Node.js package manager allowing to import various 3rd party libraries into the project.
+    - Uses Twig (default) or Blade templating engines (or you can go old plain WordPress way).
     - Vue? React? We got you covered, check [recipes section](/recipes).
     - [Gutenberg](https://wordpress.org/gutenberg/) support. 
     - [On the roadmap] Child theme support.
@@ -61,6 +61,6 @@ We are the team of experienced developers and designers working with various cli
 on small personal websites as well as large scale enterprise ones. 
 
 Our main focus is code quality and performance, We help small and big teams making their workflow, projects and
-infrastructure to be more robust, performant and secure. 
+infrastructure be more robust, performant and secure. 
 
 Our area of expertise focuses mostly on WEB technologies but we are not afraid of other challenges.

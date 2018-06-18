@@ -5,7 +5,7 @@ permalink: recipes.html
 
 # Recipes
 Our main idea was to give you strong, solid structure for your project.
-At the same time we want allow you to add to and shape the project to suit your needs.
+At the same time we want to allow you to add to and shape the project to suit your needs.
 
 Please follow the instructions below to customize Raccoon to your needs.
 
@@ -68,6 +68,8 @@ Run following command in the root of your project:
 composer remove wpackagist-plugin/timber-library
 ```
 
+Afterwards navigate to the theme directory and proceed with removal of `Timber::render` function calls as well as all `[filename].twig` templates.
+
 ### How to add support for Laravel Blade templates
 There are many ways to add a support for Laravel Blade templates.
 In our opinion the easiest way to do so is to add [Bladerunner plugin](https://github.com/ekandreas/bladerunner) which will handle it for you.
@@ -76,8 +78,6 @@ Run following command in the root of your project:
 ```
 composer require ekandreas/bladerunner
 ``` 
-
-Afterwards navigate to the theme directory and proceed with removal of `Timber::render` function calls as well as all `[filename].twig` templates.
 
 #### How to remove Extended CPTs
 If you do not want to use Extended CPTs feature please you should remove the library from your projec dependencies.
