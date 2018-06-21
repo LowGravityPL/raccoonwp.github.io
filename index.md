@@ -4,7 +4,7 @@ layout: default
 ---
 
 # RaccoonWP
-**This is 1.0.0-alpha release, RC coming soon. If you find any issues let us know**
+**This is 1.0.0-RC1 release, RC coming soon. If you find any issues let us know**
 
 Raccoon is a modern architecture stack and a starter theme for [WordPress](https://wordpress.org/). 
 
@@ -48,11 +48,8 @@ Raccoon is best suited for fresh projects (but there is no problem in implementi
     
     See our [recipes section](/recipes) to see how to tweak the project to your needs.
 
-### Current version
-1.0.0-alpha
 
 ### License
-
 [MIT](LICENSE.md) © [LowGravity.pl](https://lowgravity.pl)
 
 ----
@@ -64,3 +61,8 @@ Our main focus is code quality and performance, We help small and big teams maki
 infrastructure be more robust, performant and secure. 
 
 Our area of expertise focuses mostly on WEB technologies but we are not afraid of other challenges.
+
+#### Contributors
+- [Kamil Grzegorczyk](https://kamilgrzegorczyk.com)
+- [Lucas Grzegorczyk](https://github.com/furai)
+- artwork by [izabela Grzegorczyk](https://www.behance.net/IzaGrzegorczyk)
