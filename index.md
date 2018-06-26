@@ -17,7 +17,7 @@ Raccoon is best suited for fresh projects (but there is no problem in implementi
 
 ### Technical Requirements
 - [WordPress](https://wordpress.org/) 4.0+ (or 4.8 if You use extended CPTs) 
-- [PHP](https://secure.php.net/) 7.0 or newer
+- [PHP](https://secure.php.net/) 7.1.3 or newer
 - [PHP Composer](https://getcomposer.org/)
 - [Node and NPM](https://nodejs.org/) (required only if you want to use our theme as well)
 
