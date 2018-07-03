@@ -25,24 +25,25 @@ Raccoon is best suited for fresh projects (but there is no problem in implementi
 - Architecture:
     - [PHP Composer](https://getcomposer.org/) support.
     - [WordPress](https://wordpress.org/) Core as a dependency.
-    - Better directory structure and more secure than the default WordPress install.
-    - Environment-based configuration.
+    - Full [Docker](https://github.com/LowGravityPL/raccoon-docker) image for your local development
     - Support for [Wp-Cli](https://wp-cli.org/).
-    - Proper project data management - for example by storing CPT configuration outside of the theme (when needed).
-    - Ability to disable plugins per environment. 
-    - Internationalization built in from the beginning.
+    - Better directory structure and more secure than default WordPress install.
+    - Environment-based configuration.
+    - Proper project data management.
+    - Ability to disable plugins per environment.  
+    - Internationalization built in from the beginning.    
     - [Coming soon] Multisite not tested yet! Though it should work without issues.
     - [On the roadmap] Unit tests
     - [On the roadmap] E2E tests
-    - [On the roadmap] Docker support
+    - [On the roadmap] Progressive Web App and Service Worker 
 - Theme:
-    - Customizable theme build process based on newest [Webpack 4.12](https://webpack.js.org/) with all its features
+    - Customizable theme build process based on newest [Webpack 4.14](https://webpack.js.org/) with all its features
     like dead code elimination, bundle analysis, watch process and more.
-    - Flexible CSS: Plain SASS by default / Bootstrap 4 / Foundation 5 / Bourbon/Neat or anything else (check [recipes section](/recipes)).
-    - Modern JS: all the newest features like ES6, modules, spreads, destructuring objects and arrays etc.
-    - NPM: Node.js package manager allowing to import various 3rd party libraries into the project.
-    - Uses Twig (default) or Blade templating engines (or you can go old plain WordPress way).
-    - Vue? React? We got you covered, check [recipes section](/recipes).
+    - Flexible CSS: Plain SASS by default / Bootstrap 4 / Foundation 5 / Bourbon/Neat or anything else (check [recipes section](https://raccoonwp.lowgravity.pl/recipes)).
+    - Modern JS: all newest features like ES6, modules, spreads, destructuring objects and arrays etc.
+    - NPM: node package manager allowing to import various 3rd party libraries into the project.
+    - uses Twig (default) or Blade templating (or you can go old plain WordPress way).
+    - Vue? React? We got you covered, check [recipes section](https://raccoonwp.lowgravity.pl/recipes).
     - [Gutenberg](https://wordpress.org/gutenberg/) support. 
     - [On the roadmap] Child theme support.
     
