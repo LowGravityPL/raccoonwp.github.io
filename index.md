@@ -4,7 +4,7 @@ layout: default
 ---
 
 # RaccoonWP
-**This is 1.0.0 release. If you find any issues let us know**
+**This is 1.1.0 release. If you find any issues let us know**
 
 Raccoon is a modern architecture stack and a starter theme for [WordPress](https://wordpress.org/). 
 
