@@ -66,4 +66,4 @@ Our area of expertise focuses mostly on WEB technologies but we are not afraid o
 #### Contributors
 - [Kamil Grzegorczyk](https://kamilgrzegorczyk.com)
 - [Lucas Grzegorczyk](https://github.com/furai)
-- artwork by [izabela Grzegorczyk](https://www.behance.net/IzaGrzegorczyk)
+- Artwork by [Izabela Grzegorczyk](https://www.behance.net/IzaGrzegorczyk)
