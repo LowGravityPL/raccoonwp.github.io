@@ -4,7 +4,7 @@ layout: default
 ---
 
 # RaccoonWP
-**This is 1.1.0 release. If you find any issues let us know**
+**This is 1.2.0 release. If you find any issues let us know**
 
 Raccoon is a modern architecture stack and a starter theme for [WordPress](https://wordpress.org/). 
 
@@ -37,7 +37,7 @@ Raccoon is best suited for fresh projects (but there is no problem in implementi
     - [On the roadmap] E2E tests
     - [On the roadmap] Progressive Web App and Service Worker 
 - Theme:
-    - Customizable theme build process based on newest [Webpack 4.16](https://webpack.js.org/) with all its features
+    - Customizable theme build process based on newest [Webpack 4.17](https://webpack.js.org/) with all its features
     like dead code elimination, bundle analysis, watch process and more.
     - Flexible CSS: Plain SASS by default / Bootstrap 4 / Foundation 5 / Bourbon/Neat or anything else (check [recipes section](https://raccoonwp.lowgravity.pl/recipes)).
     - Modern JS: all newest features like ES6, modules, spreads, destructuring objects and arrays etc.
