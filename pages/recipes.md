@@ -85,9 +85,9 @@ If you do not want to use Extended CPTs feature please you should remove the lib
 Run the following command in the root of your project:
 ```
 composer remove johnbillion/extended-cpts
-````
+```
 
-### How to change default wordpress installation path (for upcomming RaccoonWP v1.2.0)
+### How to change default wordpress installation path (for RaccoonWP v1.2.0)
 If you'd like to change where wordpress is installed by default you have to change it manually in exactly 5 files. Change these lines in these files to your liking as described below:
 - `.env`
   - `WP_SITEURL=${WP_HOME}/wp`
