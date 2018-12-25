@@ -79,10 +79,23 @@ Run following command in the root of your project:
 composer require ekandreas/bladerunner
 ``` 
 
-#### How to remove Extended CPTs
+### How to remove Extended CPTs
 If you do not want to use Extended CPTs feature please you should remove the library from your projec dependencies.
 
 Run the following command in the root of your project:
 ```
 composer remove johnbillion/extended-cpts
-````
+```
+
+### How to change default wordpress installation path (for RaccoonWP v1.2.0)
+If you'd like to change where wordpress is installed by default you have to change it manually in exactly 5 files. Change these lines in these files to your liking as described below:
+- `.env`
+  - `WP_SITEURL=${WP_HOME}/wp`
+- `RaccoonWP/RaccoonApp.php`
+  - `const WP_INSTALL_DIRECTORY_NAME = 'wp';`
+- `public/index.php`
+  - `require __DIR__ . '/wp/wp-blog-header.php';`
+- `composser.json`
+  - `"wordpress-install-dir": "public/wp"`
+- `.gitignore`
+  - `public/wp`
