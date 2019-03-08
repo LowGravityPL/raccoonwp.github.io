@@ -4,12 +4,12 @@ layout: default
 ---
 
 # RaccoonWP
-**This is 1.5.0 release. If you find any issues let us know**
+**If you find any issues let us know**
 
 Raccoon is a modern architecture stack and a starter theme for [WordPress](https://wordpress.org/). 
 
 The stack is based on the Composer on the backend. Node.js with Webpack are used on the frontend. 
-This composition allows for a quick and efficient development using the tools which are **state of the art in 2018.**  
+This composition allows for a quick and efficient development using the tools which are **state of the art in 2019.**  
 
 You should use it as your boilerplate/starter kit to obtain **optimal architecture with performance, extensibility and security** in mind.
 
