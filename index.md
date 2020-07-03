@@ -8,8 +8,8 @@ layout: default
 
 Raccoon is a modern architecture stack and a starter theme for [WordPress](https://wordpress.org/). 
 
-The stack is based on the Composer on the backend. Node.js with Webpack are used on the frontend. 
-This composition allows for a quick and efficient development using the tools which are **state of the art in 2019.**  
+The stack is based on PHPComposer on the backend. Frontend build uses NodeJs and Webpack to bundle the files together for dev and production.
+This composition allows for quick and efficient development using the tools which are **state of the art in 2020.**
 
 You should use it as your boilerplate/starter kit to obtain **optimal architecture with performance, extensibility and security** in mind.
 
@@ -17,7 +17,7 @@ Raccoon is best suited for fresh projects (but there is no problem in implementi
 
 ### Technical Requirements
 - [WordPress](https://wordpress.org/) 4.0+ (or 4.8 if You use extended CPTs) 
-- [PHP](https://secure.php.net/) 7.1.3 or newer
+- [PHP](https://secure.php.net/) 7.2 or newer
 - [PHP Composer](https://getcomposer.org/)
 - [Node and NPM](https://nodejs.org/) (required only if you want to use our theme as well)
 
@@ -37,7 +37,7 @@ Raccoon is best suited for fresh projects (but there is no problem in implementi
     - [On the roadmap] E2E tests
     - [On the roadmap] Progressive Web App and Service Worker 
 - Theme:
-    - Customizable theme build process based on newest [Webpack 4.28](https://webpack.js.org/) with all its features
+    - Customizable theme build process based on newest [Webpack 4.43](https://webpack.js.org/) with all its features
     like dead code elimination, bundle analysis, watch process and more.
     - Flexible CSS: Plain SASS by default / Bootstrap 4 / Foundation 5 / Bourbon/Neat or anything else (check [recipes section](https://raccoonwp.lowgravity.pl/recipes)).
     - Modern JS: all newest features like ES6, modules, spreads, destructuring objects and arrays etc.
@@ -58,7 +58,7 @@ Raccoon is best suited for fresh projects (but there is no problem in implementi
 We are the team of experienced developers and designers working with various clients around the globe. We have worked
 on small personal websites as well as large scale enterprise ones. 
 
-Our main focus is code quality and performance, We help small and big teams making their workflow, projects and
+Our focus is code quality and performance, We help small and big teams making their workflow, projects and
 infrastructure be more robust, performant and secure. 
 
 Our area of expertise focuses mostly on WEB technologies but we are not afraid of other challenges.
@@ -66,4 +66,5 @@ Our area of expertise focuses mostly on WEB technologies but we are not afraid o
 #### Contributors
 - [Kamil Grzegorczyk](https://kamilgrzegorczyk.com)
 - [Lucas Grzegorczyk](https://github.com/furai)
+- [Matthew Grzegorczyk](https://github.com/matthewgrzegorczyk)
 - Artwork by [Izabela Grzegorczyk](https://www.behance.net/IzaGrzegorczyk)
